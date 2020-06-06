@@ -2,14 +2,19 @@ import React, { Component } from 'react'
 
 class SignUp extends Component {
   state = {
-  
+    email: '',
+    password: '',
+    firstName: '',
+    lastName: '',
   }
   handleChange = (e) => {
-console.log(e)
+    this.setState({
+      [e.target.id]: e.target.value
+    })
   }
   handleSubmit = (e) => {
     e.preventDefault();
-    console.log(e);
+    console.log(this.state);
   }
   render() {
     return (
