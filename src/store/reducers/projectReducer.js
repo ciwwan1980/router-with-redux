@@ -1,8 +1,8 @@
 const initState = {
   projects: [
-    {id: '1', title: 'fuck everything', content: 'Its a React Redux'},
+    {id: '1', title: 'Keep calm and caryy on', content: 'Its a React Redux'},
     {id: '2', title: 'collect all the stars', content: 'Its a React Redux'},
-    {id: '3', title: 'no money is left', content: 'Its a React Redux'}
+    {id: '3', title: 'Keep calm and eat Ice cream', content: 'Its a React Redux'}
   ]
 }
 
